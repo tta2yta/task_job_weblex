@@ -37,7 +37,7 @@ if(!isset($order) || !isset($currPage) || !isset($filterColumn) || !isset($order
       $order = 'desc';  
  }  
 
-$limit = '1';
+$limit = '4';
 $page = 1;
 if($currPage > 1)
 {
